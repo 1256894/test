@@ -1,0 +1,15 @@
+{
+  "name": "audio-room",
+  "version": "1.0.0",
+  "description": "Selective audio WebRTC room where only the first participant (host) is heard by all.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
